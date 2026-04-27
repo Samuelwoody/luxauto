@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxAuto Detailing | Lavado Premium a Domicilio | Noroeste de Madrid</title>
+    <meta name="description" content="Servicio premium de lavado y detailing de interior de vehículos a domicilio en la zona noroeste de Madrid. Resultados impecables garantizados. Reserva ahora con un 15% de descuento.">
+    <meta name="keywords" content="lavado coche domicilio madrid, detailing interior madrid, limpieza coche noroeste madrid, lavado tapicería coche">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="LuxAuto Detailing | Lavado Premium a Domicilio | Noroeste de Madrid">
+    <meta property="og:description" content="El referente en detailing de interiores a domicilio en el noroeste de Madrid. Productos premium, resultados impecables.">
+    <meta property="og:image" content="images/hero-exterior.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-brand">
+                <img src="images/logo-luxauto.png" alt="LuxAuto Detailing" class="loader-logo">
+            </div>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- Sticky Promo Bar -->
+    <div id="promo-bar">
+        <div class="promo-content">
+            <i class="fas fa-clock"></i>
+            <span>Reserva con <strong>7 días de antelación</strong> y obtén un <strong>15% de descuento</strong></span>
+            <a href="#reservar" class="promo-cta">Reservar Ahora</a>
+            <button class="promo-close" aria-label="Cerrar">&times;</button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/logo-luxauto.png" alt="LuxAuto Detailing" class="logo-img">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#proceso">Proceso</a>
+                <a href="#garantia">Garantía</a>
+                <a href="#testimonios">Opiniones</a>
+                <a href="#reservar" class="nav-cta">Reservar <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero-exterior.jpg" alt="LuxAuto Detailing - Servicio profesional de detailing a domicilio" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="hero-badge">
+                <i class="fas fa-award"></i> Referente en el Noroeste de Madrid
+            </div>
+            <h1>
+                Tu coche impecable<br>
+                <span class="gradient-text">sin moverte de casa</span>
+            </h1>
+            <p class="hero-subtitle">
+                Servicio profesional de <strong>detailing de interiores a domicilio</strong>. 
+                Productos premium, herramientas de alta gama y un cuidado obsesivo por cada detalle.
+            </p>
+            <div class="hero-ctas">
+                <a href="#reservar" class="btn btn-primary btn-lg">
+                    <i class="fas fa-calendar-check"></i> Reservar con 15% dto.
+                </a>
+                <a href="#servicios" class="btn btn-outline btn-lg">
+                    Ver Servicios
+                </a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <i class="fas fa-star"></i>
+                    <span><strong>4.9/5</strong> Valoración media</span>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <i class="fas fa-car"></i>
+                    <span><strong>+500</strong> Vehículos atendidos</span>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <i class="fas fa-shield-halved"></i>
+                    <span><strong>100%</strong> Satisfacción</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#por-que"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="por-que" class="section section-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">¿Por qué LuxAuto?</span>
+                <h2>No somos un lavadero más.<br>Somos <span class="highlight">artesanos del detailing</span></h2>
+                <p class="section-desc">Cada vehículo recibe un tratamiento personalizado con el mismo nivel de exigencia que un concesionario de alta gama.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-house-chimney"></i>
+                    </div>
+                    <h3>100% a Domicilio</h3>
+                    <p>Vamos donde estés. No pierdes tiempo ni tienes que desplazarte. Trabajamos en tu garaje, parking o puerta de casa.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-spray-can-sparkles"></i>
+                    </div>
+                    <h3>Productos Premium</h3>
+                    <p>Utilizamos exclusivamente productos de gama profesional: Koch Chemie, Gyeon, CarPro. Sin atajos, sin productos baratos.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Equipamiento Profesional</h3>
+                    <p>Aspiradores industriales, generadores de vapor, extractoras Kärcher, ozonizadores. Herramientas que marcan la diferencia.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Atención al Detalle</h3>
+                    <p>Cada rendija, cada costura, cada rincón. Alejandro supervisa personalmente cada trabajo con obsesión por la perfección.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-location-dot"></i>
+                    </div>
+                    <h3>Zona Noroeste Madrid</h3>
+                    <p>Especializados en Las Rozas, Majadahonda, Pozuelo, Boadilla, Villanueva de la Cañada, Torrelodones y alrededores.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Garantía de Resultado</h3>
+                    <p>Si no quedas 100% satisfecho, volvemos a realizar el servicio sin coste. Así de seguros estamos de nuestro trabajo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="section section-dark">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag light">Nuestros Servicios</span>
+                <h2>5 niveles de limpieza interior<br>para <span class="highlight">cada necesidad</span></h2>
+                <p class="section-desc light">Desde una limpieza rápida hasta una restauración completa. Elige el que mejor se adapte a tu vehículo.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1: Express -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-badge">Rápido</div>
+                    <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Express</h3>
+                    <p class="service-desc">Limpieza básica de mantenimiento para interiores que están en buen estado general.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Aspirado completo</li>
+                        <li><i class="fas fa-check"></i> Limpieza de salpicadero</li>
+                        <li><i class="fas fa-check"></i> Cristales interiores</li>
+                        <li><i class="fas fa-check"></i> Ambientador premium</li>
+                    </ul>
+                    <div class="service-meta">
+                        <span class="service-time"><i class="fas fa-clock"></i> ~45 min</span>
+                    </div>
+                    <div class="service-price">
+                        <span class="price-from">Desde</span>
+                        <span class="price-amount">39€</span>
+                    </div>
+                    <a href="#reservar" class="btn btn-service" data-service="Express">Reservar</a>
+                </div>
+
+                <!-- Service 2: Esencial -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-badge popular">Popular</div>
+                    <div class="service-icon"><i class="fas fa-broom"></i></div>
+                    <h3>Esencial</h3>
+                    <p class="service-desc">Limpieza profunda ideal para el mantenimiento periódico de tu vehículo.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Todo lo del Express</li>
+                        <li><i class="fas fa-check"></i> Limpieza de tapicería</li>
+                        <li><i class="fas fa-check"></i> Plásticos y vinilos</li>
+                        <li><i class="fas fa-check"></i> Limpieza de puertas</li>
+                        <li><i class="fas fa-check"></i> Acondicionador textil</li>
+                    </ul>
+                    <div class="service-meta">
+                        <span class="service-time"><i class="fas fa-clock"></i> ~1.5h</span>
+                    </div>
+                    <div class="service-price">
+                        <span class="price-from">Desde</span>
+                        <span class="price-amount">69€</span>
+                    </div>
+                    <a href="#reservar" class="btn btn-service" data-service="Esencial">Reservar</a>
+                </div>
+
+                <!-- Service 3: Premium -->
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-badge best">Recomendado</div>
+                    <div class="service-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Premium</h3>
+                    <p class="service-desc">Nuestro servicio estrella. Limpieza profunda con extracción y vapor profesional.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Todo lo del Esencial</li>
+                        <li><i class="fas fa-check"></i> Extracción con inyección</li>
+                        <li><i class="fas fa-check"></i> Limpieza a vapor</li>
+                        <li><i class="fas fa-check"></i> Tratamiento de cuero</li>
+                        <li><i class="fas fa-check"></i> Eliminación de olores</li>
+                        <li><i class="fas fa-check"></i> Protector UV plásticos</li>
+                    </ul>
+                    <div class="service-meta">
+                        <span class="service-time"><i class="fas fa-clock"></i> ~2.5h</span>
+                    </div>
+                    <div class="service-price">
+                        <span class="price-from">Desde</span>
+                        <span class="price-amount">109€</span>
+                    </div>
+                    <a href="#reservar" class="btn btn-primary btn-service" data-service="Premium">Reservar</a>
+                </div>
+
+                <!-- Service 4: Detailing Pro -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-badge pro">Pro</div>
+                    <div class="service-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+                    <h3>Detailing Pro</h3>
+                    <p class="service-desc">Restauración avanzada para vehículos con suciedad intensa o manchas difíciles.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Todo lo del Premium</li>
+                        <li><i class="fas fa-check"></i> Tratamiento antimanchas</li>
+                        <li><i class="fas fa-check"></i> Desinfección con ozono</li>
+                        <li><i class="fas fa-check"></i> Limpieza de techo</li>
+                        <li><i class="fas fa-check"></i> Detallado de rejillas</li>
+                        <li><i class="fas fa-check"></i> Limpieza de maletero</li>
+                        <li><i class="fas fa-check"></i> Protección textil 3M</li>
+                    </ul>
+                    <div class="service-meta">
+                        <span class="service-time"><i class="fas fa-clock"></i> ~3.5h</span>
+                    </div>
+                    <div class="service-price">
+                        <span class="price-from">Desde</span>
+                        <span class="price-amount">159€</span>
+                    </div>
+                    <a href="#reservar" class="btn btn-service" data-service="Detailing Pro">Reservar</a>
+                </div>
+
+                <!-- Service 5: Integral VIP -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-badge vip">VIP</div>
+                    <div class="service-icon"><i class="fas fa-crown"></i></div>
+                    <h3>Integral VIP</h3>
+                    <p class="service-desc">La experiencia definitiva. Interior + exterior. Tu coche como recién salido del concesionario.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Todo lo del Detailing Pro</li>
+                        <li><i class="fas fa-check"></i> Lavado exterior a mano</li>
+                        <li><i class="fas fa-check"></i> Descontaminado de pintura</li>
+                        <li><i class="fas fa-check"></i> Cera protectora premium</li>
+                        <li><i class="fas fa-check"></i> Acondicionador de neumáticos</li>
+                        <li><i class="fas fa-check"></i> Pulido de faros</li>
+                        <li><i class="fas fa-check"></i> Reporte fotográfico</li>
+                        <li><i class="fas fa-check"></i> Garantía 30 días</li>
+                    </ul>
+                    <div class="service-meta">
+                        <span class="service-time"><i class="fas fa-clock"></i> ~5h</span>
+                    </div>
+                    <div class="service-price">
+                        <span class="price-from">Desde</span>
+                        <span class="price-amount">229€</span>
+                    </div>
+                    <a href="#reservar" class="btn btn-service" data-service="Integral VIP">Reservar</a>
+                </div>
+            </div>
+
+            <div class="services-note" data-aos="fade-up">
+                <i class="fas fa-info-circle"></i>
+                <p>Los precios pueden variar según el tamaño del vehículo y su estado actual. Contacta con nosotros para un presupuesto personalizado.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="proceso" class="section section-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Nuestro Proceso</span>
+                <h2>Así de fácil es tener<br>un coche <span class="highlight">impecable</span></h2>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Cuéntanos tu necesidad</h3>
+                        <p>Rellena nuestro breve formulario o escríbenos por WhatsApp. Nos cuentas el estado de tu coche y elegimos juntos el servicio ideal.</p>
+                    </div>
+                    <div class="step-icon"><i class="fas fa-comments"></i></div>
+                </div>
+                <div class="process-step" data-aos="fade-left" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Reserva tu fecha</h3>
+                        <p>Elige el día y la franja horaria que mejor te convenga. Reserva con 7 días de antelación y obtén un <strong>15% de descuento</strong>.</p>
+                    </div>
+                    <div class="step-icon"><i class="fas fa-calendar-check"></i></div>
+                </div>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Vamos a por tu coche</h3>
+                        <p>Alejandro se desplaza con todo el equipo profesional a la ubicación que nos indiques. Solo necesitamos acceso al vehículo y una toma de corriente.</p>
+                    </div>
+                    <div class="step-icon"><i class="fas fa-van-shuttle"></i></div>
+                </div>
+                <div class="process-step" data-aos="fade-left" data-aos-delay="400">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Resultado impecable</h3>
+                        <p>Revisamos juntos el trabajo terminado. Si algún detalle no te convence, lo corregimos en el momento. Tu satisfacción es nuestra prioridad.</p>
+                    </div>
+                    <div class="step-icon"><i class="fas fa-circle-check"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee / Authority Section -->
+    <section id="garantia" class="section section-accent">
+        <div class="container">
+            <div class="guarantee-grid">
+                <div class="guarantee-content" data-aos="fade-right">
+                    <span class="section-tag light">Nuestra Promesa</span>
+                    <h2>Si no quedas satisfecho,<br><span class="highlight-light">repetimos el servicio gratis</span></h2>
+                    <p>En LuxAuto no dejamos nada al azar. Cada producto que usamos está seleccionado por su rendimiento probado. Cada herramienta es de grado profesional. Y cada servicio está respaldado por la garantía personal de Alejandro.</p>
+                    <div class="guarantee-features">
+                        <div class="g-feature">
+                            <i class="fas fa-flask"></i>
+                            <div>
+                                <strong>Productos certificados</strong>
+                                <span>Koch Chemie, Gyeon, CarPro, Sonax</span>
+                            </div>
+                        </div>
+                        <div class="g-feature">
+                            <i class="fas fa-shield-halved"></i>
+                            <div>
+                                <strong>Seguro de responsabilidad</strong>
+                                <span>Tu vehículo siempre protegido</span>
+                            </div>
+                        </div>
+                        <div class="g-feature">
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <strong>Productos biodegradables</strong>
+                                <span>Comprometidos con el medio ambiente</span>
+                            </div>
+                        </div>
+                        <div class="g-feature">
+                            <i class="fas fa-camera"></i>
+                            <div>
+                                <strong>Reporte fotográfico</strong>
+                                <span>Antes y después de cada servicio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="guarantee-visual" data-aos="fade-left">
+                    <div class="guarantee-image-wrapper">
+                        <img src="images/hero-interior.jpg" alt="Alejandro limpiando interior de vehículo premium" class="guarantee-image">
+                    </div>
+                    <div class="guarantee-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">+500</div>
+                            <div class="stat-label">Vehículos atendidos</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">4.9<span class="stat-small">/5</span></div>
+                            <div class="stat-label">Valoración media</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Tasa de satisfacción</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">0</div>
+                            <div class="stat-label">Reclamaciones</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonios" class="section section-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Opiniones</span>
+                <h2>Lo que dicen<br>nuestros <span class="highlight">clientes</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Tengo un labrador y el coche estaba lleno de pelo. Alejandro lo dejó como nuevo. Literalmente, olía a coche recién comprado. Servicio Premium totalmente recomendable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MG</div>
+                        <div class="author-info">
+                            <strong>María García</strong>
+                            <span>BMW X3 · Las Rozas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"La comodidad de no tener que mover el coche no tiene precio. Mientras trabajaba en casa, Alex dejó mi Mercedes impecable en el garaje. Ya soy cliente fijo cada 2 meses."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CR</div>
+                        <div class="author-info">
+                            <strong>Carlos Rodríguez</strong>
+                            <span>Mercedes Clase C · Majadahonda</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Los niños habían destrozado la tapicería con manchas de todo tipo. Alejandro hizo magia con la extractora. Resultado espectacular y un trato excepcional. ¡5 estrellas!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LP</div>
+                        <div class="author-info">
+                            <strong>Laura Pérez</strong>
+                            <span>Audi Q7 · Pozuelo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Compré un coche de segunda mano y quería dejarlo perfecto. El servicio Integral VIP superó mis expectativas. Parecía literalmente otro coche. Profesionalidad de nivel."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div class="author-info">
+                            <strong>Javier Martínez</strong>
+                            <span>Volvo XC60 · Boadilla del Monte</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking / Lead Form Section -->
+    <section id="reservar" class="section section-dark">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag light">Reserva tu cita</span>
+                <h2>Tu coche merece<br>el <span class="highlight">mejor cuidado</span></h2>
+                <p class="section-desc light">Completa el formulario y al enviarlo se abrirá WhatsApp con toda la info para que Alex te confirme al momento.</p>
+            </div>
+
+            <div class="booking-wrapper" data-aos="fade-up">
+                <div class="booking-sidebar">
+                    <div class="discount-banner">
+                        <div class="discount-icon"><i class="fas fa-percent"></i></div>
+                        <h3>15% de Descuento</h3>
+                        <p>Reserva con 7 días de antelación y ahorra en tu servicio.</p>
+                        <div class="discount-timer" id="discountTimer">
+                            <div class="timer-item">
+                                <span class="timer-value" id="timerDays">00</span>
+                                <span class="timer-label">Días</span>
+                            </div>
+                            <div class="timer-sep">:</div>
+                            <div class="timer-item">
+                                <span class="timer-value" id="timerHours">00</span>
+                                <span class="timer-label">Horas</span>
+                            </div>
+                            <div class="timer-sep">:</div>
+                            <div class="timer-item">
+                                <span class="timer-value" id="timerMins">00</span>
+                                <span class="timer-label">Min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-direct">
+                        <h4>¿Prefieres hablar directamente?</h4>
+                        <a href="https://wa.me/34643028386?text=Hola%20Alex%2C%20me%20interesa%20el%20servicio%20de%20limpieza%20de%20interior%20a%20domicilio.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20info%3F" target="_blank" class="btn-whatsapp-sidebar">
+                            <i class="fab fa-whatsapp"></i> Escríbenos por WhatsApp
+                        </a>
+                        <a href="tel:+34643028386" class="btn-call-sidebar">
+                            <i class="fas fa-phone"></i> 643 028 386
+                        </a>
+                    </div>
+                </div>
+
+                <form id="bookingForm" class="booking-form">
+                    <!-- Step Indicator -->
+                    <div class="form-steps">
+                        <div class="form-step-indicator active" data-step="1">
+                            <span class="step-num">1</span>
+                            <span class="step-text">Tu vehículo</span>
+                        </div>
+                        <div class="form-step-connector"></div>
+                        <div class="form-step-indicator" data-step="2">
+                            <span class="step-num">2</span>
+                            <span class="step-text">Servicio</span>
+                        </div>
+                        <div class="form-step-connector"></div>
+                        <div class="form-step-indicator" data-step="3">
+                            <span class="step-num">3</span>
+                            <span class="step-text">Tus datos</span>
+                        </div>
+                    </div>
+
+                    <!-- Step 1: Vehicle Info -->
+                    <div class="form-panel active" id="step1">
+                        <h3 class="form-panel-title"><i class="fas fa-car-side"></i> Cuéntanos sobre tu vehículo</h3>
+                        
+                        <div class="form-group">
+                            <label for="tipoVehiculo">Tipo de vehículo *</label>
+                            <div class="vehicle-type-grid">
+                                <label class="vehicle-option">
+                                    <input type="radio" name="tipoVehiculo" value="Turismo" required>
+                                    <div class="vehicle-option-content">
+                                        <i class="fas fa-car"></i>
+                                        <span>Turismo</span>
+                                    </div>
+                                </label>
+                                <label class="vehicle-option">
+                                    <input type="radio" name="tipoVehiculo" value="SUV/Todoterreno">
+                                    <div class="vehicle-option-content">
+                                        <i class="fas fa-truck-monster"></i>
+                                        <span>SUV</span>
+                                    </div>
+                                </label>
+                                <label class="vehicle-option">
+                                    <input type="radio" name="tipoVehiculo" value="Monovolumen">
+                                    <div class="vehicle-option-content">
+                                        <i class="fas fa-van-shuttle"></i>
+                                        <span>Monovolumen</span>
+                                    </div>
+                                </label>
+                                <label class="vehicle-option">
+                                    <input type="radio" name="tipoVehiculo" value="Furgoneta">
+                                    <div class="vehicle-option-content">
+                                        <i class="fas fa-truck"></i>
+                                        <span>Furgoneta</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="estadoTapiceria">Estado de la tapicería *</label>
+                            <div class="condition-grid">
+                                <label class="condition-option">
+                                    <input type="radio" name="estadoTapiceria" value="Buen estado" required>
+                                    <div class="condition-content">
+                                        <span class="condition-emoji">😊</span>
+                                        <span class="condition-text">Buen estado</span>
+                                        <span class="condition-desc">Mantenimiento regular</span>
+                                    </div>
+                                </label>
+                                <label class="condition-option">
+                                    <input type="radio" name="estadoTapiceria" value="Manchas leves">
+                                    <div class="condition-content">
+                                        <span class="condition-emoji">🤔</span>
+                                        <span class="condition-text">Manchas leves</span>
+                                        <span class="condition-desc">Alguna mancha puntual</span>
+                                    </div>
+                                </label>
+                                <label class="condition-option">
+                                    <input type="radio" name="estadoTapiceria" value="Manchas difíciles">
+                                    <div class="condition-content">
+                                        <span class="condition-emoji">😬</span>
+                                        <span class="condition-text">Manchas difíciles</span>
+                                        <span class="condition-desc">Manchas resistentes</span>
+                                    </div>
+                                </label>
+                                <label class="condition-option">
+                                    <input type="radio" name="estadoTapiceria" value="Muy sucio">
+                                    <div class="condition-content">
+                                        <span class="condition-emoji">😰</span>
+                                        <span class="condition-text">Muy sucio</span>
+                                        <span class="condition-desc">Necesita restauración</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="tieneMascotas" id="tieneMascotas">
+                                <span class="checkbox-custom"></span>
+                                <span><i class="fas fa-paw"></i> Viajan mascotas en el vehículo</span>
+                            </label>
+                        </div>
+
+                        <button type="button" class="btn btn-primary btn-block btn-next" onclick="nextStep(2)">
+                            Siguiente <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Step 2: Service Selection -->
+                    <div class="form-panel" id="step2">
+                        <h3 class="form-panel-title"><i class="fas fa-sparkles"></i> Elige tu servicio</h3>
+                        
+                        <div class="form-group">
+                            <div class="service-select-grid">
+                                <label class="service-select-option">
+                                    <input type="radio" name="servicio" value="Express" required>
+                                    <div class="service-select-content">
+                                        <div class="ssc-header">
+                                            <span class="ssc-name">Express</span>
+                                            <span class="ssc-price">39€</span>
+                                        </div>
+                                        <span class="ssc-desc">Aspirado, salpicadero, cristales</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-option">
+                                    <input type="radio" name="servicio" value="Esencial">
+                                    <div class="service-select-content">
+                                        <div class="ssc-header">
+                                            <span class="ssc-name">Esencial</span>
+                                            <span class="ssc-price">69€</span>
+                                        </div>
+                                        <span class="ssc-desc">+ Tapicería, plásticos, puertas</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-option recommended">
+                                    <input type="radio" name="servicio" value="Premium">
+                                    <div class="service-select-content">
+                                        <div class="ssc-badge">⭐ Recomendado</div>
+                                        <div class="ssc-header">
+                                            <span class="ssc-name">Premium</span>
+                                            <span class="ssc-price">109€</span>
+                                        </div>
+                                        <span class="ssc-desc">+ Vapor, extracción, cuero, olores</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-option">
+                                    <input type="radio" name="servicio" value="Detailing Pro">
+                                    <div class="service-select-content">
+                                        <div class="ssc-header">
+                                            <span class="ssc-name">Detailing Pro</span>
+                                            <span class="ssc-price">159€</span>
+                                        </div>
+                                        <span class="ssc-desc">+ Ozono, techo, maletero, protección 3M</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-option">
+                                    <input type="radio" name="servicio" value="Integral VIP">
+                                    <div class="service-select-content">
+                                        <div class="ssc-header">
+                                            <span class="ssc-name">Integral VIP</span>
+                                            <span class="ssc-price">229€</span>
+                                        </div>
+                                        <span class="ssc-desc">Interior + exterior completo</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="fechaPreferida">Fecha preferida *</label>
+                            <input type="date" id="fechaPreferida" name="fechaPreferida" required class="form-input">
+                            <div class="form-hint" id="discountHint"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="comentarios">¿Algo que debamos saber? (opcional)</label>
+                            <textarea id="comentarios" name="comentarios" class="form-input" rows="3" placeholder="Ej: Mancha de café en el asiento trasero, olor a tabaco, pelo de mascota..."></textarea>
+                        </div>
+
+                        <div class="form-nav-buttons">
+                            <button type="button" class="btn btn-outline btn-back" onclick="prevStep(1)">
+                                <i class="fas fa-arrow-left"></i> Anterior
+                            </button>
+                            <button type="button" class="btn btn-primary btn-next" onclick="nextStep(3)">
+                                Siguiente <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Contact Info -->
+                    <div class="form-panel" id="step3">
+                        <h3 class="form-panel-title"><i class="fas fa-user"></i> Tus datos de contacto</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nombre">Nombre completo *</label>
+                                <input type="text" id="nombre" name="nombre" required class="form-input" placeholder="Tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Teléfono *</label>
+                                <input type="tel" id="telefono" name="telefono" required class="form-input" placeholder="600 000 000">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required class="form-input" placeholder="tu@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="zona">Zona / Localidad *</label>
+                                <select id="zona" name="zona" required class="form-input">
+                                    <option value="">Selecciona tu zona</option>
+                                    <option value="Las Rozas">Las Rozas</option>
+                                    <option value="Majadahonda">Majadahonda</option>
+                                    <option value="Pozuelo de Alarcón">Pozuelo de Alarcón</option>
+                                    <option value="Boadilla del Monte">Boadilla del Monte</option>
+                                    <option value="Villanueva de la Cañada">Villanueva de la Cañada</option>
+                                    <option value="Villanueva del Pardillo">Villanueva del Pardillo</option>
+                                    <option value="Torrelodones">Torrelodones</option>
+                                    <option value="Galapagar">Galapagar</option>
+                                    <option value="El Escorial">El Escorial</option>
+                                    <option value="Aravaca">Aravaca</option>
+                                    <option value="Otra zona">Otra zona (consultar)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-summary" id="formSummary">
+                            <!-- Dynamic summary -->
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="privacidad" id="privacidad" required>
+                                <span class="checkbox-custom"></span>
+                                <span>Acepto la <a href="#" class="link">política de privacidad</a> y el tratamiento de mis datos para recibir el presupuesto.</span>
+                            </label>
+                        </div>
+
+                        <div class="form-nav-buttons">
+                            <button type="button" class="btn btn-outline btn-back" onclick="prevStep(2)">
+                                <i class="fas fa-arrow-left"></i> Anterior
+                            </button>
+                            <button type="submit" class="btn btn-primary btn-lg btn-submit">
+                                <i class="fab fa-whatsapp"></i> Enviar y Abrir WhatsApp
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Success State -->
+                    <div class="form-panel" id="stepSuccess" style="display:none;">
+                        <div class="success-content">
+                            <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+                            <h3>¡Solicitud enviada!</h3>
+                            <p>Se ha abierto WhatsApp con todos los datos de tu solicitud. Si no se ha abierto automáticamente, pulsa el botón de abajo para contactar con Alex directamente.</p>
+                            <div class="success-actions">
+                                <a href="https://wa.me/34643028386?text=Hola%20Alex%2C%20acabo%20de%20enviar%20una%20solicitud%20a%20trav%C3%A9s%20de%20la%20web%20de%20LuxAuto%20Detailing." target="_blank" class="btn btn-whatsapp-success">
+                                    <i class="fab fa-whatsapp"></i> Abrir WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Area -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Zona de Cobertura</span>
+                <h2>Servicio a domicilio en el<br><span class="highlight">Noroeste de Madrid</span></h2>
+            </div>
+            <div class="coverage-grid" data-aos="fade-up">
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Las Rozas</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Majadahonda</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Pozuelo de Alarcón</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Boadilla del Monte</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Villanueva de la Cañada</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Villanueva del Pardillo</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Torrelodones</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Galapagar</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> El Escorial</div>
+                <div class="coverage-item"><i class="fas fa-map-pin"></i> Aravaca</div>
+            </div>
+            <p class="coverage-note" data-aos="fade-up">¿No ves tu zona? <a href="https://wa.me/34643028386?text=Hola%20Alex%2C%20quiero%20saber%20si%20cubr%C3%ADs%20mi%20zona.%20Vivo%20en%20" target="_blank">Consúltanos por WhatsApp</a>, quizás podamos llegar hasta ti.</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-light" style="padding-top:0;">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Preguntas Frecuentes</span>
+                <h2>Todo lo que necesitas<br><span class="highlight">saber</span></h2>
+            </div>
+            <div class="faq-list" data-aos="fade-up">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cuánto tiempo tarda el servicio?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Depende del servicio elegido. Un Express tarda unos 45 minutos, mientras que un Integral VIP puede llevar hasta 5 horas. Te daremos un tiempo estimado exacto al confirmar tu cita.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Necesitáis agua o electricidad?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Llevamos nuestro propio depósito de agua. Solo necesitamos una toma de corriente cercana (hasta 25m) para el equipamiento. Si no dispones de una, consúltanos y buscamos solución.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Los productos que usáis son seguros para mi tapicería?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutamente. Trabajamos con marcas profesionales como Koch Chemie, Gyeon y CarPro, que están formuladas específicamente para cada tipo de material: tela, alcántara, cuero, vinilo, etc. Elegimos el producto adecuado según tu tapicería.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Puedo estar presente durante el servicio?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Por supuesto. Puedes estar presente, dejarnos las llaves y seguir con tu rutina, o incluso ir viéndolo por fotos que te vamos mandando por WhatsApp. Tú decides cómo prefieres.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cómo funciona el descuento del 15%?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Muy sencillo: si reservas con al menos 7 días de antelación respecto a la fecha del servicio, aplicamos automáticamente un 15% de descuento sobre el precio del servicio. Se calcula al seleccionar la fecha en el formulario.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Qué métodos de pago aceptáis?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Aceptamos efectivo, Bizum, transferencia bancaria y pago con tarjeta. El pago se realiza una vez completado el servicio y hayas verificado que todo está a tu gusto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="section-cta">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>¿Listo para estrenar interior?</h2>
+                <p>Reserva hoy con 7 días de antelación y ahorra un 15%.</p>
+                <div class="cta-buttons">
+                    <a href="#reservar" class="btn btn-primary btn-lg">
+                        <i class="fas fa-calendar-check"></i> Reservar Ahora
+                    </a>
+                    <a href="https://wa.me/34643028386?text=Hola%20Alex%2C%20quiero%20reservar%20un%20lavado%20de%20interior%20a%20domicilio." target="_blank" class="btn btn-whatsapp btn-lg">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo-luxauto.png" alt="LuxAuto Detailing" class="footer-logo">
+                    <p>Servicio premium de detailing de interiores a domicilio.<br>El referente en el Noroeste de Madrid.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/34643028386" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Servicios</h4>
+                    <a href="#servicios">Express</a>
+                    <a href="#servicios">Esencial</a>
+                    <a href="#servicios">Premium</a>
+                    <a href="#servicios">Detailing Pro</a>
+                    <a href="#servicios">Integral VIP</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Zona de Cobertura</h4>
+                    <a href="#">Las Rozas</a>
+                    <a href="#">Majadahonda</a>
+                    <a href="#">Pozuelo de Alarcón</a>
+                    <a href="#">Boadilla del Monte</a>
+                    <a href="#">Torrelodones</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <a href="tel:+34643028386"><i class="fas fa-phone"></i> 643 028 386</a>
+                    <a href="https://wa.me/34643028386"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a href="mailto:luxautodetailing@gmail.com"><i class="fas fa-envelope"></i> luxautodetailing@gmail.com</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Noroeste de Madrid</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LuxAuto Detailing. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Aviso Legal</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/34643028386?text=Hola%20Alex%2C%20me%20interesa%20el%20servicio%20de%20limpieza%20de%20interior%20a%20domicilio.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20info%3F" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">¡Hola! ¿Necesitas info?</span>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
